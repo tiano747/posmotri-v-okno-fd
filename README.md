@@ -11,7 +11,7 @@ https://github.com/tiano747/posmotri-v-okno-fd
 
 ### Скриншот
 
-![](./screenshot)
+![скриншот экрана с готовым результатом](screenshot.png)
 
 ### Описание
 
