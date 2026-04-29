@@ -293,7 +293,7 @@ video {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 192px; 
+  max-width: 192px;
 }
 
 .content__video-card-description {
@@ -305,7 +305,7 @@ video {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   line-clamp: 3;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail {
