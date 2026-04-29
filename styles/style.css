@@ -80,7 +80,8 @@ video {
 .result__video-container {
   position: relative;
   width: 711px;
-  margin: 0 0 11px;
+  height: 386px;
+  margin: 0 0 16px;
 }
 
 .search-form {
@@ -219,7 +220,7 @@ video {
 }
 
 .title {
-  padding: 0 0 26px;
+  padding: 0 0 23px;
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -234,22 +235,25 @@ video {
 
 .content__list {
   position: relative;
-  overflow-y: scroll;
+  overflow: auto;
   block-size: 298px;
   scrollbar-width: none;
+  overflow-x: hidden;
+  
 }
 
 .content__list::-webkit-scrollbar {
   display: none;
+  overflow-x: hidden;
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 34px;
+  margin: 0 0 30px;
 }
 
 .content__card-link {
   display: block;
-  margin: 2px;
+  margin: 0px;
   text-decoration: none;
 }
 
@@ -279,21 +283,29 @@ video {
 }
 
 .content__video-card-title {
-  padding: 2px 2px 5px;
+  padding: 0px 0px 5px;
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
   text-transform: uppercase;
-  hyphens: auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 192px; 
 }
 
 .content__video-card-description {
-  padding: 0 2px;
+  padding: 0px 1px;
   color: #FFF;
   font-weight: 400;
   line-height: 16.2px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden; 
 }
 
 .content__video-card-thumbnail {
