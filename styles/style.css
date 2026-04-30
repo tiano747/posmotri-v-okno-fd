@@ -236,7 +236,7 @@ video {
 .content__list {
   position: relative;
   overflow: auto;
-  block-size: 298px;  
+  block-size: 298px;
 }
 
 .content__list-item:not(:last-child) {
