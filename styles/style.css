@@ -237,14 +237,6 @@ video {
   position: relative;
   overflow: auto;
   block-size: 298px;
-  scrollbar-width: none;
-  overflow-x: hidden;
-  
-}
-
-.content__list::-webkit-scrollbar {
-  display: none;
-  overflow-x: hidden;
 }
 
 .content__list-item:not(:last-child) {
